@@ -1,0 +1,12 @@
+# Cargo.toml is a manifest file in which we can specify a bunch of different metadata about our package
+[package]
+name = "rust_basic_app"
+version = "0.1.0"
+
+[dependencies]
+#regex = { git = "https://github.com/rust-lang/regex.git" }
+ferris-says = "0.2"
+
+# [lib]
+# my_main_lib = { path = "./lib.rs" } # this is not required
+
